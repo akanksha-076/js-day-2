@@ -1,11 +1,14 @@
+//slice method
 let str = "JavaScript is fun!";
 let sliced = str.slice(0, 10);
 console.log(sliced)
 
+//substring method
 let string = "JavaScript is amazing!";
 let sub = string.substring(11, 17);
 console.log(sub)
 
+//split method
 let sentence = "I,am,a,comma,separated,sentence";
 let words = sentence.split(",");
 console.log(words)
