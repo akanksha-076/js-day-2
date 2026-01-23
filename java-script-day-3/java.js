@@ -17,6 +17,7 @@ console.log(words)
 let strr= "tu meri mai tera mai tera tu meri"
 let w = strr.split("r");
 console.log(w.length-1)
+//next
 
 
 
