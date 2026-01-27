@@ -31,6 +31,6 @@ console.log(car); // undefined
 
 //what is the dofferrece between obj.frese and onj..seal
 //in seal we chAnge the existing value but cant add a new value
-// in freeze we cant even change or add existing value
+// in freeze we cant even change or add existing value.
 
 
