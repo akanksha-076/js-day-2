@@ -13,7 +13,8 @@ for (let i=0;i<para.length;i++){
 console.log(para.length)
 
 const content=document.getElementById("content")
-const task3=document.querySelectorAll("#content p")
+const task3=document.querySelector("#content p")
+task3.style.backgroundColor="cyan"
 for (let i=0;i<task3.length;i++){
     task3[i].style.backgroundColorcolor="red"
 }
