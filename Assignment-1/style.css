@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #011349, #021b8c);
+    padding: 30px;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box {
+    background: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.box h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.box label {
+    font-size: 14px;
+    margin-top: 10px;
+    display: block;
+}
+
+.box input,
+.box textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.box button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #4f10e2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: #6c15be;
+}
+
+.sec {
+    width: 400px;
+}
+
+.btn-group {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.secondary {
+    background: #47317d;
+}
+
+.empty-text {
+    text-align: center;
+    color: #555;
+}
+
+.dom-box {
+    margin: 30px auto 0;
+    width: 750px;
+}
