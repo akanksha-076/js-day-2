@@ -16,3 +16,17 @@ image.setAttribute("alt","K.R.Mangalam")
 const gallery=document.getElementById("hii")
 gallery.appendChild(image)
 
+//date method
+const today=new Date()
+console.log(today)
+setInterval(()=>{
+    let date=new Date()
+    console.log(date)
+    let hour=date.getHours();
+    let min=date.getMinutes();
+    let second=date.getSeconds();
+
+    let clock=document.getElementById("digi-clock")
+})
+
+
