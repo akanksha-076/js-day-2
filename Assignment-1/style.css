@@ -91,3 +91,7 @@ body {
     margin: 30px auto 0;
     width: 750px;
 }
+select{
+    height: 30px;
+    width: 250px;
+}
