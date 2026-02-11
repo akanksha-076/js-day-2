@@ -10,22 +10,29 @@
     <div class="container">
       <div class="box">
         <h2>Add New Event</h2>
-        <form id="eventform">
-          <label>Event Title</label>
-          <input type="text" />
-          <label>Event Date</label>
-          <input type="date" />
-          <label>Category</label>
-          <select name="" id="eventCategory">
-            <option value="">Conference</option>
-            <option value="">Workshop</option>
-            <option value="">Social</option>
-            <option value="">Webinar</option>
-            <option value="">MeetUp</option>
-          </select>
-
-          <label>Description</label>
-          <textarea rows="3"></textarea>
+        <form id="eventForm">
+          <div class="form-group">
+            <label>Event Title</label>
+            <input type="text" id="eventTitle" />
+          </div>
+          <div class="form-group">
+            <label>Event Date</label>
+            <input type="date" id="eventDate"/>
+          </div>
+          <div class="form-group">
+            <label>Category</label>
+            <select name="" id="eventCategory">
+              <option value="">Conference</option>
+              <option value="">Workshop</option>
+              <option value="">Social</option>
+              <option value="">Webinar</option>
+              <option value="">MeetUp</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>Description</label>
+            <textarea rows="3" id="eventDescription"></textarea>
+          </div>
 
           <button>Add Event</button>
         </form>
@@ -37,14 +44,16 @@
           <button id="clearAllBtn">Clear All Events</button>
           <button id="addSampleBtn">Add Sample Events</button>
         </div>
-
-        <p class="eventContainer">No events yet. Add your first event!</p>
+        <div id="eventContainer">
+        <p id="emptymsg">No events yet. Add your first event!</p>
+        </div>
       </div>
     </div>
 
     <div class="box dom-box">
       <h2>DOM Manipulation Demo</h2>
-      <input type="text" placeholder="You Pressed:" />
+      <div id="key">YOU PRESSED:</div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
