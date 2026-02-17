@@ -1,5 +1,5 @@
 //promise  :the constructor func. help us to create promise./ smart organization of callback func,
- //1.resolved
+//1.resolved
 //2.pending
 //3.rejected
 
@@ -25,11 +25,17 @@
 // // });
 // console.log(mypromise);
 
-let resp=fetch("https://jsonplaceholder.typicode.com/todos/1");
-resp.then((robj)=>{
-    // console.log(robj);
-    robj.json().then((data)=>{
-        console.log(data);
-    });
-});
+
+// let resp=fetch("https://jsonplaceholder.typicode.com/todos/1");
+// resp.then((robj)=>{
+//     // console.log(robj);
+//     robj.json().then((data)=>{
+//         console.log(data);
+//     });
+// });
+// 
 // console.log(Response);
+fetch("https://jsonplaceholder.typicode.com/todos/1")
+.then(robj => robj.json())
+.then(data => console.log(data))
+.catch(ERROR => console.log(ERROR));
