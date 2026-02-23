@@ -19,13 +19,13 @@
 // console.log("last line")
 
 
-// const options = {method: 'GET', headers: {Authorization: 'Bearer zpka_ad2cf9fe46684cac8bdd908ab2cdb493_5f462f1c'}};
+// const options = {method: 'GET', headers: {Authorization: 'Bearer key'}};
 
 // fetch('https://dataservice.accuweather.com/locations/v1/cities/search?q=delhi', options)
 //   .then(response => response.json())
 //   .then(response => console.log(response))
 //   .catch(err => console.error(err));
-const options = {method: 'GET', headers: {Authorization: 'Bearer zpka_ad2cf9fe46684cac8bdd908ab2cdb493_5f462f1c'}};
+const options = {method: 'GET', headers: {Authorization: 'Bearer key'}};
 
 fetch('https://dataservice.accuweather.com/locations/v1/:202396', options)
   .then(response => response.json())
