@@ -19,15 +19,3 @@
 // console.log("last line")
 
 
-// const options = {method: 'GET', headers: {Authorization: 'Bearer key'}};
-
-// fetch('url', options)
-//   .then(response => response.json())
-//   .then(response => console.log(response))
-//   .catch(err => console.error(err));
-// const options = {method: 'GET', headers: {Authorization: 'Bearer keys'}};
-
-// fetch('url', options)
-//   .then(response => response.json())
-//   .then(response => console.log(response))
-//   .catch(err => console.error(err));
