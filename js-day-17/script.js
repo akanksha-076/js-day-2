@@ -20,7 +20,7 @@
 // code is hard to debug and structure is not good . 
 
 // disadvantages : to perform certain task we need to call a callback fin multile time . more 
-// fun for smaller task means more complexity and time for exectutiojn and fun call
+// fun for smaller task means more complexity and time for exectutiojn and fun call will be more
 
 function pro(num){
     return new Promise((res,rej)=>{
