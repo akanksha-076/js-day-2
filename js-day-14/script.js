@@ -13,8 +13,7 @@ const p2=new Promise((resolve,reject)=>{
 })
 p2.then(()=>{
     console.log("inside promise")
-})
-    
+})   
 console.log("last line")
 
 
