@@ -21,3 +21,4 @@ localStorage.setItem('theme','dark')
 
 
 //getting it
+// npm create vite@latest
