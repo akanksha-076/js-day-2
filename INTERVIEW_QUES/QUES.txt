@@ -35,9 +35,6 @@
 22. API FECHING
 
 *JavaScript Interview Preparation Questions/Question Bank:*
-
-Q1. What is the difference between var, let, and const?
-
 Q2. Explain the different types of operators in JavaScript.
 Examples:
 * Arithmetic Operators
@@ -122,7 +119,7 @@ Q20. Explain Async and Await.Why is it more efficient and readable than Promise 
 
 
 
-Guess the Output and Explain the Reason in Details (Concepts to cover:callstack, event loop, micro task and macro task queue) 
+Guess the Output and Explain the Reason in Details (Concepts to cover:callstack, event loop, micro task and macro task queue)
 
 Q21. 
 console.log("A");
@@ -199,7 +196,7 @@ REACT JS
 25. WHAT IS SINGLE PAGE APPLICATION THE DIFFERENCE BETWEEN SPA AND MAP
 26. EXPLAIN ONE WAY DATA BINDING IN REACT
 27. HOW JSX WORKS IN REACT AND WAHT IS BABBLE
-28. EXPLAIN LIFE CYCLE METHODS AND ITS DISADV.
+28. EXPLAIN LIFE CYCLE METHODS AND ITS DISADV.***
 29. HOW TO TACLE LIFE CYCLE METHOD BY USING useEffect HOOKs
 30. CONTROLLED AND UN-CONTROLLED COMPONENTS
 31. HOW TO MANAGE STATE IN REACT BY USING USESTATE HOOK
